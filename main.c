@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "Include/functions.h"
-#include "Include/menus.h"
+#include "Menus/startmenu.h"
 
 
 int main(void) {
     printf("Engineering Unit Converter\n");
-    lengthMenu();
+    startMenu();
     return 0;
 }

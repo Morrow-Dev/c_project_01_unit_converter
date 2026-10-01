@@ -6,7 +6,7 @@
 #define C_PROJECT_01_UNIT_CONVERTER_FUNCTIONS_H
 
 void lengthMenu(void);
-
+void startMenu(void);
 
 
 #endif //C_PROJECT_01_UNIT_CONVERTER_FUNCTIONS_H
