@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include "Include/functions.h"
+
 
 int main(void) {
-    printf("Hello, World!\n");
+    printf("Engineering Unit Converter\n");
+    startMenu();
     return 0;
 }
