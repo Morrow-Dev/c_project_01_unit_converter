@@ -1,11 +1,13 @@
 // A menu that will give the user options for selected unit conversions.
 #include <stdio.h>
+#include <stdbool.h>
 #include <string.h>
 #include "../Include/macro.h"
 #include "../Include/functions.h"
 #include "../Conversions/length.h"
 
 int menuChoice;
+bool lengthMenuFirst = true;
 
 void lengthMenu() {
     while (ALWAYS == 0) {
@@ -58,187 +60,207 @@ void lengthMenu() {
 
 
 switch (menuChoice) {
-
+// Millimeters to Centimeters
     case 1: {
-        double inches;
+        double millimeters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enters Millimeters.\n");
+        scanf("%lf", &millimeters);
+        result = millimetersToCentimeters(millimeters);
         printf("%f\n", result);
         break;
     }
+    // Centimeters to Millimeters
     case 2: {
-        double inches;
+        double centimeters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("2. Enter Centimeters.\n");
+        scanf("%lf", &centimeters);
+        result = centimetersToMillimeters(centimeters);
         printf("%f\n", result);
         break;
     }
+    // Millimeters to Meters
     case 3: {
-        double inches;
+        double millimeters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Millimeters.\n");
+        scanf("%lf", &millimeters);
+        result = millimetersToMeters(millimeters);
         printf("%f\n", result);
         break;
     }
+    // Meters to Millimeters
     case 4: {
-        double inches;
+        double meters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Meters.\n");
+        scanf("%lf", &meters);
+        result = metersToMillimeters(meters);
         printf("%f\n", result);
         break;
     }
+    // Centimeters to Meters
     case 5: {
-        double inches;
+        double centimeters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Centimeters.\n");
+        scanf("%lf", &centimeters);
+        result = centimetersToMeters(centimeters);
         printf("%f\n", result);
         break;
     }
+    // Meters to Centimeters
     case 6: {
-        double inches;
+        double meters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Meters.\n");
+        scanf("%lf", &meters);
+        result = metersToCentimeters(meters);
         printf("%f\n", result);
         break;
     }
+    // Meters to Kilometers.
     case 7: {
-        double inches;
+        double meters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Meters.\n");
+        scanf("%lf", &meters);
+        result = metersToKilometers(meters);
         printf("%f\n", result);
         break;
     }
+    // Kilometers to Meters
     case 8: {
-        double inches;
+        double kilometers;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Kilometers.\n");
+        scanf("%lf", &kilometers);
+        result = kilometersToMeters(kilometers);
         printf("%f\n", result);
         break;
     }
+    // Inches to Feet
     case 9: {
         double inches;
         double result;
         printf("Enter Inches.\n");
         scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        result = inchesToFeet(inches);
         printf("%f\n", result);
         break;
     }
+    // Feet to Inches
     case 10: {
-        double inches;
+        double feet;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Feet.\n");
+        scanf("%lf", &feet);
+        result = feetToInches(feet);
         printf("%f\n", result);
         break;
     }
+    // Yards to Feet.
     case 11: {
-        double inches;
+        double yards;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Yards.\n");
+        scanf("%lf", &yards);
+        result = yardsToFeet(yards);
         printf("%f\n", result);
         break;
     }
+    // Feet To Yards
     case 12: {
-        double inches;
+        double feet;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Feet.\n");
+        scanf("%lf", &feet);
+        result = inchesToMeters(feet);
         printf("%f\n", result);
         break;
     }
+    // Yards to Miles
     case 13: {
-        double inches;
+        double yards;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Yards.\n");
+        scanf("%lf", &yards);
+        result = yardsToMiles(yards);
         printf("%f\n", result);
         break;
     }
+    // Miles to Yards
     case 14: {
-        double inches;
+        double miles;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Miles.\n");
+        scanf("%lf", &miles);
+        result = milesToYards(miles);
         printf("%f\n", result);
         break;
     }
+    // Feet to Miles
     case 15: {
-        double inches;
+        double feet;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Feet.\n");
+        scanf("%lf", &feet);
+        result = feetToMiles(feet);
         printf("%f\n", result);
         break;
     }
+    // Miles to Feet
     case 16: {
-        double inches;
+        double miles;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Miles.\n");
+        scanf("%lf", &miles);
+        result = milesToFeet(miles);
         printf("%f\n", result);
         break;
     }
+    // Inches to Millimeters
     case 17: {
         double inches;
         double result;
         printf("Enter Inches.\n");
         scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        result = inchesToMillimeters(inches);
         printf("%f\n", result);
         break;
     }
+    // Millimeters to Inches
     case 18: {
-        double inches;
+        double millimeters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Millimeters.\n");
+        scanf("%lf", &millimeters);
+        result = millimetersToInches(millimeters);
         printf("%f\n", result);
         break;
     }
+    // Inches to Centimeters
     case 19: {
         double inches;
         double result;
         printf("Enter Inches.\n");
         scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        result = inchesToCentimeters(inches);
         printf("%f\n", result);
         break;
     }
+    // Centimeters to feet.
     case 20: {
-        double inches;
+        double centimeters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Centimeters.\n");
+        scanf("%lf", &centimeters);
+        result = centimetersToFeet(centimeters);
         printf("%f\n", result);
         break;
     }
+    // Inches to Meters
     case 21: {
         double inches;
         double result;
@@ -248,66 +270,73 @@ switch (menuChoice) {
         printf("%f\n", result);
         break;
     }
+    // Meters to Inches
     case 22: {
-        double inches;
+        double meters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Meters.\n");
+        scanf("%lf", &meters);
+        result = metersToInches(meters);
         printf("%f\n", result);
         break;
     }
+    // Feet To Meters
     case 23: {
-        double inches;
+        double feet;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Feet.\n");
+        scanf("%lf", &feet);
+        result = feetToMeters(feet);
         printf("%f\n", result);
         break;
     }
+    // Meters to Feet
     case 24: {
-        double inches;
+        double meters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Meters.\n");
+        scanf("%lf", &meters);
+        result = inchesToMeters(meters);
         printf("%f\n", result);
         break;
     }
+    // Yards to Meters
     case 25: {
-        double inches;
+        double yards;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Yards.\n");
+        scanf("%lf", &yards);
+        result = yardsToMeters(yards);
         printf("%f\n", result);
         break;
     }
+    // Meters to Yards
     case 26: {
-        double inches;
+        double meters;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Meters.\n");
+        scanf("%lf", &meters);
+        result = inchesToMeters(meters);
         printf("%f\n", result);
         break;
     }
+    // Miles to Kilometers
     case 27: {
-        double inches;
+        double miles;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Miles.\n");
+        scanf("%lf", &miles);
+        result = inchesToMeters(miles);
         printf("%f\n", result);
         break;
     }
+    // Kilometers to Meters
     case 28: {
-        double inches;
+        double kilometers;
         double result;
-        printf("Enter Inches.\n");
-        scanf("%lf", &inches);
-        result = inchesToMeters(inches);
+        printf("Enter Kilometers.\n");
+        scanf("%lf", &kilometers);
+        result = kilometersToMeters(kilometers);
         printf("%f\n", result);
         break;
     }

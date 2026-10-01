@@ -147,3 +147,7 @@ double kilometersToMiles(double kilometers) {
     return miles;
 }
 
+double centimetersToFeet(double centimeters) {
+    double feet = centimeters / 30.48;
+    return feet;
+}

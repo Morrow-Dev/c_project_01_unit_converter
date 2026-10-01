@@ -61,5 +61,6 @@ double metersToYards(double meters);
 double milesToKilometers(double miles);
 double kilometersToMiles(double kilometers);
 
+double centimetersToFeet(double centimeters);
 
 #endif //C_PROJECT_01_UNIT_CONVERTER_LENGTH_H
