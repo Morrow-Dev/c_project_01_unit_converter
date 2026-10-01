@@ -1,5 +1,5 @@
-#include "Include/macro.h"
-#include "Include/functions.h"
+#include "../Include/macro.h"
+#include "../Include/functions.h"
 #include <stdio.h>
 #include <string.h>
 

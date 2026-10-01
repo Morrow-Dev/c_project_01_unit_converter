@@ -9,7 +9,7 @@ int ALWAYS = 0;
 
 void startMenu() {
     while (ALWAYS == 0) {
-        printf("Welcome to the Engineering Unit Converted.\nPlease select from the options below.\n");
+        printf("Welcome to the Engineering Unit Converter.\nPlease select from the options below.\n");
         printf("1. Inches to Meters.\n");
         scanf("%d", &menuChoice);
         if (menuChoice ==1) {
