@@ -5,8 +5,8 @@
 #ifndef C_PROJECT_01_UNIT_CONVERTER_FUNCTIONS_H
 #define C_PROJECT_01_UNIT_CONVERTER_FUNCTIONS_H
 
-void startMenu(void);
-double InchesToMeters(void);
+void lengthMenu(void);
+
 
 
 #endif //C_PROJECT_01_UNIT_CONVERTER_FUNCTIONS_H

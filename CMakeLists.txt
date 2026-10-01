@@ -6,6 +6,9 @@ set(CMAKE_C_STANDARD 11)
 add_executable(c_project_01_unit_converter main.c
         Include/functions.h
         Include/macro.h
-        menu.c
+        Menus/lengthmenu.c
         Conversions/length.c
-        Conversions/length.h)
+        Conversions/length.h
+        Menus/startmenu.c
+        Menus/startmenu.h
+        Menus/lengthmenu.h)
