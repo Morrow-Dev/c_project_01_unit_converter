@@ -97,7 +97,7 @@ void velocityMenu() {
                 double feetpersecond;
                 double result;
                 printf("Please enter your Feet Per Second.\n");
-                scanf("lf", &feetpersecond);
+                scanf("%lf", &feetpersecond);
                 result = feetPerSecondToMetersPerSecond(feetpersecond);
                 printf("%lf Feet Per Second is equal to %lf Meters Per Second.\n", feetpersecond, result);
                 break;

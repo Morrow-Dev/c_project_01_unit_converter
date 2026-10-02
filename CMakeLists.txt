@@ -16,4 +16,7 @@ add_executable(c_project_01_unit_converter main.c
         Menus/temperaturemenu.c
         Conversions/velocity.c
         Conversions/velocity.h
-        Menus/velocitymenu.c)
+        Menus/velocitymenu.c
+        Conversions/force.c
+        Conversions/force.h
+        Menus/forcemenu.c)

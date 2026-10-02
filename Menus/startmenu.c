@@ -6,6 +6,7 @@
 #include "../Conversions/length.h"
 #include "../Conversions/temperature.h"
 #include "../Conversions/velocity.h"
+#include "../Conversions/force.h"
 #include "../Include/macro.h"
 
 bool firstMenuVisit = true;
@@ -18,11 +19,15 @@ while (startrunning == true) {
 
         if (firstMenuVisit == true) {
             printf("Welcome to the Unit Conversion Calculator.\n Below you'll see a list of possible conversions.\n");
-            printf("1. Length Conversions.\n2. Temperature Conversion.\n3. Velocity Conversion.(COMING SOON)\n");
+            printf("1. Length Conversions.  2. Temperature Conversion.  3. Velocity Conversion.\n");
+            printf("4. Mass Conversion.     5.Force Conversion.         6. Pressure Conversion.\n");
+            printf("7. Energy Conversion.   8. Power Conversion.        9. Torque Conversion.\n");
             scanf("%d", &startMenuChoice);
             firstMenuVisit = false;
         } else if (firstMenuVisit == false) {
-            printf("1. Length Conversions.\n2. Temperature Conversion.\n3. Velocity Conversion.(COMING SOON)\n");
+            printf("1. Length Conversions.  2. Temperature Conversion.  3. Velocity Conversion.\n");
+            printf("4. Mass Conversion.     5.Force Conversion.         6. Pressure Conversion.\n");
+            printf("7. Energy Conversion.   8. Power Conversion.        9. Torque Conversion.\n");
             scanf("%d", &startMenuChoice);
         }
 
@@ -37,6 +42,9 @@ while (startrunning == true) {
             }
             case 3: {
                 velocityMenu();
+            }
+            case 4: {
+                forceMenu();
             }
 
             }
