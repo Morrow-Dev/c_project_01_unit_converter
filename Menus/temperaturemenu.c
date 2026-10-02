@@ -4,11 +4,13 @@
 #include "../Conversions/temperature.h"
 #include "startmenu.h"
 
-bool tempMenuFirst = true;
-int tempmenuchoice;
-bool temprunning = true;
+
 
     void temperatureMenu() {
+        bool tempMenuFirst = true;
+        int tempmenuchoice;
+        bool temprunning = true;
+
         while (temprunning == true) {
         if (tempMenuFirst == true) {
             printf("Welcome to the Engineering Unit Converter.\nPlease select from the options below.\n");

@@ -5,6 +5,7 @@
 #include "startmenu.h"
 #include "../Conversions/length.h"
 #include "../Conversions/temperature.h"
+#include "../Conversions/velocity.h"
 #include "../Include/macro.h"
 
 bool firstMenuVisit = true;
@@ -35,13 +36,11 @@ while (startrunning == true) {
                 break;
             }
             case 3: {
-                //velocityMenu();
+                velocityMenu();
             }
-            default: {
-                printf("woo");
+
             }
 
         }
 
     }
-}
