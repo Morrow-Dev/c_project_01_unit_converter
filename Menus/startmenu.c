@@ -9,8 +9,11 @@
 
 bool firstMenuVisit = true;
 int startMenuChoice;
+bool startrunning = true;
 
 void startMenu() {
+while (startrunning == true) {
+
 
         if (firstMenuVisit == true) {
             printf("Welcome to the Unit Conversion Calculator.\n Below you'll see a list of possible conversions.\n");
@@ -22,19 +25,20 @@ void startMenu() {
             scanf("%d", &startMenuChoice);
         }
 
-    switch (startMenuChoice) {
-        case 1: {
-            lengthMenu();
-            break;
-        }
-        case 2: {
-            temperatureMenu();
-            break;
-        }
-        default: {
-            printf("woo");
+        switch (startMenuChoice) {
+            case 1: {
+                lengthMenu();
+                break;
+            }
+            case 2: {
+                temperatureMenu();
+                break;
+            }
+            default: {
+                printf("woo");
+            }
+
         }
 
     }
-
 }
