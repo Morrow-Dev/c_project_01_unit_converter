@@ -5,6 +5,8 @@
 #ifndef C_PROJECT_01_UNIT_CONVERTER_LENGTH_H
 #define C_PROJECT_01_UNIT_CONVERTER_LENGTH_H
 
+void lengthMenu();
+
 // Millimeters <> Centimeters
 double millimetersToCentimeters(double millimeters);
 double centimetersToMillimeters(double centimeters);
