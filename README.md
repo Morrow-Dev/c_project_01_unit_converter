@@ -1,0 +1,104 @@
+Project 01 — Full Conversion Checklist
+- Length — DONE
+    - Millimeters ↔ Centimeters
+    - Millimeters ↔ Meters
+    - Centimeters ↔ Meters
+    - Meters ↔ Kilometers
+    - Inches ↔ Feet
+    - Feet ↔ Yards
+    - Yards ↔ Miles
+    - Feet ↔ Miles
+    - Inches ↔ Millimeters
+    - Inches ↔ Centimeters
+    - Inches ↔ Meters
+    - Feet ↔ Meters
+    - Yards ↔ Meters
+    - Miles ↔ Kilometers
+    - Centimeters ↔ Feet
+- Temperature — DONE
+    - Fahrenheit → Celsius
+    - Celsius → Fahrenheit
+    - Celsius → Kelvin
+    - I’d also add before calling temperature completely finished:
+        - Kelvin → Celsius
+        - Fahrenheit → Kelvin
+        - Kelvin → Fahrenheit
+- Speed
+    - Miles/hour → Kilometers/hour
+    - Kilometers/hour → Miles/hour
+    - Miles/hour → Meters/second
+    - Meters/second → Miles/hour
+    - Kilometers/hour → Meters/second
+    - Meters/second → Kilometers/hour
+    - Feet/second → Meters/second
+    - Meters/second → Feet/second
+- Mass
+    - Grams → Kilograms
+    - Kilograms → Grams
+    - Milligrams → Grams
+    - Grams → Milligrams
+    - Ounces → Pounds
+    - Pounds → Ounces
+    - Pounds → Kilograms
+    - Kilograms → Pounds
+    - Ounces → Grams
+    - Grams → Ounces
+    - Metric tons → Kilograms
+    - Kilograms → Metric tons
+- Force
+    - Pound-force → Newtons
+    - Newtons → Pound-force
+    - Kilonewtons → Newtons
+    - Newtons → Kilonewtons
+    - Pound-force → Kilonewtons
+    - Kilonewtons → Pound-force
+- Pressure
+    - PSI → Pascals
+    - Pascals → PSI
+    - PSI → Kilopascals
+    - Kilopascals → PSI
+    - Pascals → Kilopascals
+    - Kilopascals → Pascals
+    - Bar → Pascals
+    - Pascals → Bar
+    - Bar → Kilopascals
+    - Kilopascals → Bar
+    - PSI → Bar
+    - Bar → PSI
+    - Atmospheres → Pascals
+    - Pascals → Atmospheres
+    - Atmospheres → PSI
+    - PSI → Atmospheres
+- Energy
+    - Joules → Kilojoules
+    - Kilojoules → Joules
+    - Joules → Calories
+    - Calories → Joules
+    - Joules → Kilocalories
+    - Kilocalories → Joules
+    - Foot-pounds → Joules
+    - Joules → Foot-pounds
+    - Watt-hours → Joules
+    - Joules → Watt-hours
+    - Kilowatt-hours → Joules
+    - Joules → Kilowatt-hours
+    - Kilowatt-hours → Megajoules
+    - Megajoules → Kilowatt-hours
+- Power
+    - Watts → Kilowatts
+    - Kilowatts → Watts
+    - Watts → Megawatts
+    - Megawatts → Watts
+    - Mechanical horsepower → Watts
+    - Watts → Mechanical horsepower
+    - Mechanical horsepower → Kilowatts
+    - Kilowatts → Mechanical horsepower
+    - Kilowatts → Megawatts
+    - Megawatts → Kilowatts
+- Torque
+    - Pound-feet → Newton-meters
+    - Newton-meters → Pound-feet
+    - Pound-inches → Newton-meters
+    - Newton-meters → Pound-inches
+    - Newton-meters → Kilonewton-meters
+    - Kilonewton-meters → Newton-meters

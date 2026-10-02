@@ -13,7 +13,7 @@ bool lengthrunning = true;
 void lengthMenu() {
     while (lengthrunning == true) {
         if (lengthMenuFirst == true) {
-            printf("Welcome to the Engineering Unit Converter.\nPlease select from the options below.\n");
+            printf("Welcome to the Engineering Unit Length Converter.\nPlease select from the options below.\n");
             printf("1. Millimeters to Centimeters.     2. Centimeters to Millimeters.\n");
 
             printf("3. Millimeters to Meters.          4. Meters to Millimeters.\n");
@@ -55,7 +55,8 @@ void lengthMenu() {
         switch (menuChoice) {
             // Millimeters to Centimeters
             case 0: {
-                startMenu();
+                lengthrunning = false;
+                break;
             }
             case 1: {
                 double millimeters;

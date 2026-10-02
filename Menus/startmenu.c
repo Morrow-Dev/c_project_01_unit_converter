@@ -17,11 +17,11 @@ while (startrunning == true) {
 
         if (firstMenuVisit == true) {
             printf("Welcome to the Unit Conversion Calculator.\n Below you'll see a list of possible conversions.\n");
-            printf("1. Length Conversions.\n2. Temperature Conversion.\n");
+            printf("1. Length Conversions.\n2. Temperature Conversion.\n3. Velocity Conversion.(COMING SOON)\n");
             scanf("%d", &startMenuChoice);
             firstMenuVisit = false;
         } else if (firstMenuVisit == false) {
-            printf("1. Length Conversions.\n2. Temperature Conversion.\n");
+            printf("1. Length Conversions.\n2. Temperature Conversion.\n3. Velocity Conversion.(COMING SOON)\n");
             scanf("%d", &startMenuChoice);
         }
 
@@ -33,6 +33,9 @@ while (startrunning == true) {
             case 2: {
                 temperatureMenu();
                 break;
+            }
+            case 3: {
+                //velocityMenu();
             }
             default: {
                 printf("woo");
